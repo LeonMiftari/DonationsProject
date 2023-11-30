@@ -8,7 +8,7 @@ import models.DonatoretDto;
 import services.DonatoretService;
 
 @RestController
-@RequestMapping("api/donatores")
+@RequestMapping("api/donatoret")
 @CrossOrigin(origins = "*")
 public class DonatorController {
     private final DonatoretService donatorService;
